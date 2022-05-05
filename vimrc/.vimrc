@@ -29,6 +29,8 @@ call plug#end()
 
 " mappings
 
+imap jk <Esc>
+
 map <C-n> :NERDTreeToggle<CR>
 
 map <silent> <C-h> :call WinMove('h')<CR>
