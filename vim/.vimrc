@@ -6,6 +6,7 @@ set tabstop=4
 set softtabstop=4
 set shiftwidth=4
 set hlsearch
+set encoding=UTF-8
 
 inoremap  <Up>     <NOP>
 inoremap  <Down>   <NOP>
@@ -18,12 +19,15 @@ noremap   <Right>  <NOP>
 
 call plug#begin()
 
+
 " Plugins
 
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'jiangmiao/auto-pairs'
 Plug 'tpope/vim-fugitive'
 Plug 'kien/ctrlp.vim'
+Plug 'mattn/emmet-vim'
+Plug 'vim-scripts/scratch.vim'
 
 call plug#end()
 
@@ -50,3 +54,5 @@ function! WinMove(key)
         exec "wincmd ".a:key
     endif
 endfunction
+
+let g:user_emmet_leader_key=','
