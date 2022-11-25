@@ -6,7 +6,6 @@
     "breadcrumbs.enabled": false,
     "editor.tabSize": 2,
     "workbench.activityBar.visible": false,
-    "files.defaultLanguage": "html",
     "editor.detectIndentation": false,
     "editor.folding": false,
     "editor.glyphMargin": false,
