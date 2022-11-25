@@ -3,7 +3,6 @@
     "editor.minimap.enabled": false,
     "editor.smoothScrolling": true,
     "editor.fontSize": 18,
-    "window.zoomLevel": 1,
     "breadcrumbs.enabled": false,
     "editor.tabSize": 2,
     "workbench.activityBar.visible": false,
@@ -21,5 +20,11 @@
     "editor.linkedEditing": true,
     "liveServer.settings.donotShowInfoMsg": true,
     "liveServer.settings.donotVerifyTags": true,
-    "workbench.colorTheme": "One Dark Pro"
+    "workbench.colorTheme": "Night Owl",
+    "vim.insertModeKeyBindings": [
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ]
 }
